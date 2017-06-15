@@ -6,17 +6,6 @@ finereport  报表嵌入到自己的web项目中
 3、配置信息
 reportlets文件：放FineReport模板文件
 resourseces文件：放datasourse.xml文件信息，该文件只要内容就是数据库的连接信息。
-web.xml:文件添加servlet
- <servlet>
-    <servlet-name>ReportServer</servlet-name>
-    <servlet-class>com.fr.web.ReportServlet</servlet-class>
-    <load-on-startup>0</load-on-startup>
-  </servlet>
-
-  <servlet-mapping>
-    <servlet-name>ReportServer</servlet-name>
-    <url-pattern>/ReportServer</url-pattern>
-  </servlet-mapping>
-  
+web.xml:文件添加servlet配置信息
 4、访问路径类似：
    http://localhost:8080/ReportServer?reportlet=user.cpt
