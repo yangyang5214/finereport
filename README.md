@@ -17,5 +17,5 @@ web.xml:文件添加servlet
     <servlet-name>ReportServer</servlet-name>
     <url-pattern>/ReportServer</url-pattern>
   </servlet-mapping>
-  4、访问路径类似：
+4、访问路径类似：
    http://localhost:8080/ReportServer?reportlet=user.cpt
