@@ -1,4 +1,7 @@
+
 # finereport
+
+> update 2022.05. 过去太久了，版本更新很多了吧，后面不做了 很多都不会了，建议直接看官方论坛
 
 -  [原始版本（起码是2017版本）](http://blog.csdn.net/qq_30009669/article/details/54710492#reply)
 
